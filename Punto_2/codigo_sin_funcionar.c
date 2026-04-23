@@ -20,7 +20,7 @@ int main() {
     int suma = valor1 + valor2;  //agrego punto y coma a la variable int suma.
     printf("La suma es: %d\n", suma);
 
-    duplicar_numero(&valor1);
+    duplicar_numero(&valor1); //le paso la direccion de memoria a la funcion porque la funcion no tiene un return.
     printf("El primer valor duplicado es: %d\n", valor1);
 
     return 0; //agrego punto y coma al return.
