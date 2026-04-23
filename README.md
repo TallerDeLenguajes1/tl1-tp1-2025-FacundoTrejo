@@ -22,3 +22,7 @@
     * b) **Directorio completo:** node_modules/ (la barra indica que es una carpeta).
     * c) **Extensiones (comodines):** *.log ignora todos los archivos que terminen en .log.
 3. **Uso de plantillas:** Para mayor comodidad, puede usar herramientas como la extensión de .gitignore en Visual Studio Code o sitios como gitignore.io para generar archivos basados en su lenguaje o framework.
+
+# Punto 3
+
+## a) - **Sobre el código misterioso:** Tenemos 3 funciones. La primera función se encarga de invertir el número, así que le cambié el nombre a "funcion_invertir". La segunda función solo se encarga de dividir el número en 2 así que le puse "f_div_mitad". La tercera función suma el valor de la variable temp, por ejemplo si temp es 123, suma 1 + 2 + 3; luego a ese resultado lo suma al valor almacenado en el puntero *p así que le puse "f_sumarVarMasPuntero".
