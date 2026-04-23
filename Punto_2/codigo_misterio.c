@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void f_alpha(int *p) {
+
+void funcion_invertir(int *p) {
     int temp = *p;
     int rev = 0;
     while (temp > 0) {
@@ -10,11 +11,11 @@ void f_alpha(int *p) {
     *p = rev;
 }
 
-void f_beta(int *p) {
+void f_div_mitad(int *p) {
     *p = *p / 2;
 }
 
-void f_gamma(int *p) {
+void f_sumarVarMasPuntero(int *p) {
     int temp = *p;
     int suma = 0;
     while (temp > 0) {
@@ -25,12 +26,14 @@ void f_gamma(int *p) {
 }
 
 void procesar_enigma(int *valor_referencia) {
-    f_alpha(valor_referencia);
-    f_beta(valor_referencia);
-    f_gamma(valor_referencia);
+    funcion_invertir(valor_referencia);
+    f_div_mitad(valor_referencia);
+    f_sumarVarMasPuntero(valor_referencia);
 }
 
 int main() {
+    
+printf ("hola mundo\n");
     int dato_secreto = 452;
     
     printf("Iniciando depuracion con el valor: %d\n", dato_secreto);
